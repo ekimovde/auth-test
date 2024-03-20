@@ -1,0 +1,17 @@
+.ui-button {
+  background: $color-blue;
+  padding: 16px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  width: 100%;
+  font-size: 14px;
+  line-height: 20px;
+  color: $color-white;
+
+  &:disabled {
+    opacity: $opacity-50;
+    cursor: default;
+  }
+}

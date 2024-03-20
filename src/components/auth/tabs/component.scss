@@ -1,0 +1,26 @@
+.auth-tabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 32px;
+
+  &__tab {
+    background: none;
+    outline: none;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 17px;
+    color: $main-color;
+
+    &--active {
+      color: $color-blue;
+    }
+
+    &:disabled {
+      opacity: $opacity-50;
+      cursor: default;
+    }
+  }
+}

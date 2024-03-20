@@ -1,0 +1,11 @@
+.auth-card {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+  background: $color-gray;
+  border-radius: 18px;
+  padding: 40px;
+  max-width: 540px;
+  min-width: 540px;
+  width: 100%;
+}
